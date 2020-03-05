@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "prosper-sandbox-poc-tfstate"
     prefix = "env/dev"
   }
 }
