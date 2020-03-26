@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+#added a note
 locals {
   network = "${element(split("-", var.subnet), 0)}"
 }
